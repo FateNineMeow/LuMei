@@ -1,0 +1,13 @@
+﻿<ayui:AyWindow x:Class="LuMei.WindowMain"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+        xmlns:ayui="http://www.ayjs.net/controls"
+        CloseButtonMargin="0,0,10,0" TitleVisibility="Visible" IsCoverTaskBar="true"
+        xmlns:control="http://www.ayjs.net/controls" 
+         WindowStartupLocation="CenterScreen" 
+        Title="AYUI演示系统" Height="300" Width="600" MinWidth="600" MinHeight="300" x:Name="mainwin" 
+                  BorderThickness="1"  CloseIsHideWindow="True" Background="Black">
+    <Grid Margin="5" Background="#FF36086C" >
+        <Button Margin="0,242,529,0" Click="Button_Click" >按钮</Button>
+    </Grid>
+</ayui:AyWindow>

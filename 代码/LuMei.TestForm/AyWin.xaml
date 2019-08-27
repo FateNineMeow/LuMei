@@ -1,0 +1,13 @@
+﻿<ayui:AyWindow x:Class="LuMei.TestForm.AyWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        IsCoverTaskBar="true"
+        xmlns:ayui="http://www.ayjs.net/controls" 
+         WindowStartupLocation="CenterScreen" 
+      WindowEntranceBackgroundMode="1"
+                  BorderThickness="1"  CloseIsHideWindow="True"
+        Title="AyWin" Height="300" Width="300">
+    <Grid Background="AliceBlue">
+        <ayui:AyImage x:Name="wwww" Source="{Binding imagesssss}"></ayui:AyImage>
+    </Grid>
+</ayui:AyWindow>
